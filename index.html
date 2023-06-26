@@ -1,69 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Files/bootstrap.min.css">
-    <script src="./Files/bootstrap.bundle.min.js"></script>
-    <title>My Personal Website</title>
-</head>
-<body>
-    
-    <section class="head-banner">
-        <p>HELLO!</p>
-        <h1 class="Name">I'm <Span>Mohamed Abdel Aleem</Span></h1>
-        <h2 class="Description">I'm a <span>Programmer</span></h2>
-    </section>
-
-    <section class="about-me">
-        <img src="./Assets/IMG/My_image.jpg" height="300" width="300" alt="Me">
-        <p>I'm a web developer with a strong background in data science, machine learning, and game development. 💻 I love turning data into meaningful insights and creating immersive experiences. When I'm not coding, you can find me on the sports field ⚽️🏀, enjoying a game, or immersed in a captivating book. 📚</p>
-    </section>
-
-    <section class="skills 1">
-        <div class="card">
-            <img src="./Assets/IMG/istockphoto-1385099270-612x612.jpg" class="card-img-top" alt="web developer">
-            <div class="card-body">
-              <h2 class="cart-title">Web Developer</h2>
-              <p class="card-text">👨‍💻 Passionate web developer with a knack for crafting immersive online experiences. ✨ Click the button below to explore my projects and witness the magic unfold! 🚀</p>
-              <br>
-              <a class="btn btn-secondary" href="./Assets/HTML/Web-Projects.html" role="button" style="margin-left: 25%; margin-top: 10px;">Click Here To Check Out</a>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Dog App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="app">
+            <div class="header">
+        <h1>Dog App</h1>
+        <div id="breed"></div>
             </div>
-          </div>
-
-          <div class="card">
-            <img src="./Assets/IMG/Masters-in-Game-Development.jpg" class="card-img-top" alt="game developer">
-            <div class="card-body">
-              <h2 class="cart-title">Game Developer</h2>
-              <p class="card-text">🎮 Enthusiastic game developer with a passion for creating captivating digital worlds. ⚡️ Press the button below to embark on an adventure through my game projects and experience the thrill firsthand! 🚀</p>
-              <a class="btn btn-secondary" href="https://mohamedabdelaleem-cs.github.io/Super-Sparty-Bros/" role="button" style="margin-left: 25%;">Click Here To Check Out</a>
-            </div>
-          </div>
-    </section>
-
-    
-
-    <section class="footer">
-        <div class="container">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
-              <div class="col-md-4 d-flex align-items-center">
-                <span class="mb-3 mb-md-0 text-body-secondary" style="font-size: 20px;">© 2023 ,Mohamed Abdel Aleem</span>
-              </div>
-          
-              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/profile.php?id=100006396736303"><img src="./Assets/SVGS/facebook.svg" width="32" height="32"></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/mohamed._.abdelaleem/"><img src="./Assets/SVGS/instagram.svg" width="32" height="32"></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="https://github.com/MohamedAbdelAleem-cs"><img src="./Assets/SVGS/github.svg" width="32" height="32"></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/mohamed-abdel-aleem-49212322105/"><img src="./Assets/SVGS/linkedin.svg" width="32" height="32"></a></li>
-              </ul>
-            </footer>
-          </div>
-
-    </section>
-</body>
+            <div class="slideshow" id="slideshow"></div>
+        </div>
+        <script src="main.js"></script>
+    </body>
 </html>
